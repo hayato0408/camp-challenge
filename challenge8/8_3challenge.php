@@ -20,7 +20,7 @@
 $sushi = new menu();
 
 
-$sushi -> write('大トロ', '河童巻き');
+$sushi -> write('大トロ', 'お茶');
 $menu = $sushi -> menu_list();
 foreach ($menu as $key => $value) {
   echo $value.'<br>';
