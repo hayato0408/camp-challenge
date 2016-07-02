@@ -29,13 +29,13 @@ insert_confimから戻ってきた場合、フォームや選択ボタンは入�
         $_SESSION['name'] = null;
       }
       if(!isset($_SESSION['year'])){
-        $_SESSION['year'] = '----';
+        $_SESSION['year'] = null;
       }
       if(!isset($_SESSION['month'])){
-        $_SESSION['month'] = '--';
+        $_SESSION['month'] = null;
       }
       if(!isset($_SESSION['day'])){
-        $_SESSION['day'] = '--';
+        $_SESSION['day'] = null;
       }
       if(!isset($_SESSION['type'])){
         $_SESSION['type'] = null;
